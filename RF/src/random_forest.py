@@ -98,11 +98,6 @@ plt.tick_params(axis='both', labelsize=18)
 
 plt.tight_layout()
 
-plt.savefig(r'figs10.png',
-            dpi=300,      # 分辨率：500 DPI
-            format = 'png',
-            bbox_inches='tight',    # 去掉多余的白边
-            pad_inches=0.1, # 内边距
-            )
+
 
 plt.show()
